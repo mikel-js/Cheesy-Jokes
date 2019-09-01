@@ -50,7 +50,6 @@
   width: 70%;
   overflow: scroll;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
-
 }
 
 .JokeList-counter {
@@ -241,4 +240,83 @@
   98% {
     transform: translate(10px, -9px) rotate(2.5deg);
   }
+}
+
+
+@media screen and (max-width: 1186px) {
+  .JokeList {
+    display: flex;
+    width: 70%;
+    height: 70%;
+  }
+
+  .JokeList-getMore {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .JokeList-getMore {
+    font-size: .9rem;
+  }
+
+  .JokeList-title {
+    font-size: 2.5rem;
+    
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .JokeList-getMore {
+    font-size: .8rem;
+    margin: 1rem;
+    padding: 1rem 1rem
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .JokeList-getMore {
+    font-size: .7rem;
+  }
+
+  .JokeList-title {
+    font-size: 1.5rem;
+  }
+
+  .JokeList-counter {
+    font-size: .7rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .JokeList {
+    display: flex;
+    flex-direction: column;
+  }
+  .JokeList-sidebar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row
+  }
+  .JokeList-getMore {
+    font-size: .9rem;
+    margin: 1px;
+  }
+
+  .JokeList-title {
+    font-size: 1rem;
+    margin: 1px;
+    letter-spacing: .3rem;
+  }
+
+  .JokeList-counter {
+    font-size: .3rem;
+  }
+  .JokeList-sidebar img {
+    width: 15%;
+    }
+  .JokeList-jokes {
+    width: 90%;
+    }
 }

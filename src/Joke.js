@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Joker from './Joker'
-import uuid from 'uuid/v4'
 import './Joke.css'
 
 const jokeURL = 'https://icanhazdadjoke.com/'
