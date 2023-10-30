@@ -89,6 +89,10 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
 
+.JokeList-loading {
+  font-size: 32px;
+}
+
 @keyframes shake-slow {
   0% {
     transform: translate(0px, 0px) rotate(0deg);

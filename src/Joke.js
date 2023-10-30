@@ -126,7 +126,7 @@ export default class Joke extends Component {
           <p className='JokeList-counter'>{`Total Jokes: ${counter}`}</p>
         </div>
         <div className='JokeList-jokes'>
-          {!joke ? joke : <div className='JokeList-jokes'>'Loading'</div>}
+          {joke ? joke : <p className='JokeList-loading'>Loading...</p>}
         </div>
       </div>
     );
