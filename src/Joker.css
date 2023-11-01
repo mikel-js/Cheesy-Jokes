@@ -55,6 +55,17 @@
   color: #8bc34a;
 }
 
+.Joke-count {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.Joke-count p {
+  margin: 0;
+  font-size: 2rem
+}
+
 @keyframes move-up {
   0%,
   50%,
