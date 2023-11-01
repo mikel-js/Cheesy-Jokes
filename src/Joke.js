@@ -16,7 +16,6 @@ export default class Joke extends Component {
       loading: false,
     };
     this.seenJokes = new Set(this.state.jokes.map((j) => j.text));
-    console.log(this.seenJokes);
     this.handleVote = this.handleVote.bind(this);
     this.addJoke = this.addJoke.bind(this);
   }
